@@ -123,7 +123,7 @@ dialog = Dialog(
 )
 
 
-bot = Bot(token="8050951367:AAEOTRludBV_dT2o73Ar2MpQQw6IvcfzaNs")
+bot = Bot(token="YOUR TOKEN")
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
 dp.include_routers(dialog)
 setup_dialogs(dp)
